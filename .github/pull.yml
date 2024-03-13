@@ -1,0 +1,7 @@
+# Configures the Pull GitHub App to automatically merge upstream changes https://github.com/wei/pull
+
+version: "1"
+rules:
+  - base: main
+    upstream: adobe:main
+    mergeMethod: merge

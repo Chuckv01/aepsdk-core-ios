@@ -11,7 +11,7 @@
  */
 
 import Foundation
-import SQLite3
+import SQLCipher
 
 /// Helper class for SQLite database operations
 public struct SQLiteWrapper {
